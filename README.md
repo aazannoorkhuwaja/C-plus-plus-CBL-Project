@@ -1,6 +1,6 @@
 # If-Else Semester-1
 All Practice Problems Of Sem-1:
-# If-Else Questions
+# Questions
 1. Write a program to check if a number is positive, negative, or zero.
 2. Write a program that accepts a grade (A, B, C, D, F) and prints the corresponding
 message.
