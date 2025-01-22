@@ -19,3 +19,4 @@ if (n <= 1) {
         cout << "Prime number" << endl;
     }
     return 0;
+}
