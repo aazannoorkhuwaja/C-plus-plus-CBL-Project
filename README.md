@@ -13,7 +13,7 @@ message.
 9. Write a program to check if a number is prime.
 10.Create a program that checks if a given string is a palindrome.
 11. Write a program to find the absolute value of a number.
-12.Create a program to check if a number is divisible by both 3 and 5.
+12.Create a program to check if a number is divisible by both 3 and 5. 
 13.Write a program that prints a message based on the user's age (child, teenager,
 adult).
 14.Create a program to classify a number as a perfect number.
