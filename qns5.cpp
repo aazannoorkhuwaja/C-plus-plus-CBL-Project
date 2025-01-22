@@ -3,8 +3,9 @@
 using namespace std;
 int main(){
     int num;
-    cout <<"Inout Aany Number We Will Its Even Or Odd"<<endl;
-    if(num%2=0)
+    cout <<"Input Aany Number We Will Its Even Or Odd >> :"<<endl;
+    cin>>num;
+    if(num%2==0)
     {
         cout<<"Number is even"<<endl;
     }
