@@ -1,5 +1,4 @@
 //10.Create a program that checks if a given string is a palindrome.
-//10. Create a program that checks if a given string is a palindrome.
 #include <iostream>
 using namespace std;
 
