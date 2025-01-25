@@ -3,25 +3,22 @@
 using namespace std;
 
 int main() {
-    string name;
+    string name, rev;
     cout << "Enter a string to check if it is a palindrome: " << endl;
     cin >> name;
-
-    bool is_palindrome = true;
-    int length = name.length();
-
-    for (int i = 0; i < length / 2; ++i) {
-        if (name[i] != name[length - 1 - i]) {
-            is_palindrome = false;
-            break;
-        }
+    int i = 1, length = 1;
+    while (name[i] != '\0') {
+        i++;
+        length++;
     }
-
-    if (is_palindrome) {
-        cout << "The string is a palindrome." << endl;
+    cout << "Length is: " << length << endl;
+    for (int i = length; i >= 0; i--) {
+        rev += name[i];  
+    }
+    if (rev == name) {
+        cout << "String is Palindrome Because each character is equal after reversing: " << rev << endl;
     } else {
-        cout << "The string is not a palindrome." << endl;
+        cout << "String is not Palindrome:" <<rev<< endl;
     }
-
     return 0;
 }
