@@ -1,26 +1,49 @@
 # Programming Fundamentals in C++
 
-Welcome to the **Programming Fundamentals in C++** repository! This repository is designed to help beginners understand the core concepts of C++ programming through practical examples and explanations.
+Welcome to the **Programming Fundamentals in C++** repository! This repository provides a comprehensive set of practice questions to help learners strengthen their understanding of C++ programming.
 
 ## What You'll Learn
 
-This repository covers the fundamental concepts of C++ programming, including:
+This repository covers various fundamental concepts and practice problems in C++, including:
 
-- **Basic Syntax** – Variables, Data Types, and Operators
-- **Control Flow** – Conditional Statements and Loops
-- **Functions** – Definition, Parameters, and Return Values
-- **Arrays and Strings** – Handling Collections of Data
-- **Pointers and References** – Memory Management Basics
-- **Object-Oriented Programming (OOP)** – Classes, Objects, and Inheritance
-- **File Handling** – Reading and Writing Data to Files
+- **Basic Concepts** – Variables, Data Types, Operators, and Control Flow
+- **Decision Making** – If-Else, Switch Case
+- **Loops** – For, While, and Do-While Loops
+- **Arrays and Strings** – 1D and 2D Arrays, String Manipulation
+- **Functions** – Recursive and Non-Recursive Solutions
+- **Pointers** – Dynamic Memory Allocation and Operations
+- **File Handling** – Reading, Writing, and Manipulation of Files
+- **Advanced Topics** – Sorting, Searching, and Real-World Scenarios
 
-## Prerequisites
+## Topics Covered
 
-To follow along with the examples in this repository, you should have:
+The repository includes categorized programming questions such as:
 
-- Basic knowledge of programming concepts
-- A C++ compiler (e.g., GCC, MSVC, or Clang)
-- A code editor (e.g., Visual Studio Code, Code::Blocks)
+1. **If-Else Statements**
+2. **Loops and Iterations**
+3. **Switch Case Statements**
+4. **Star and Number Patterns**
+5. **Functions and Recursion**
+6. **Arrays and 2D Arrays**
+7. **Pointers and Dynamic Memory**
+8. **File Handling**
+9. **Scenario-Based Real-World Problems**
+
+## Folder Structure
+
+```
+📂 Programming-Fundamentals-C++
+├── 📁 If-Else
+├── 📁 Loops
+├── 📁 Switch-Case
+├── 📁 Patterns
+├── 📁 Functions
+├── 📁 Arrays
+├── 📁 Pointers
+├── 📁 File-Handling
+├── 📁 Scenario-Based
+├── README.md
+```
 
 ## How to Use
 
@@ -34,14 +57,13 @@ To follow along with the examples in this repository, you should have:
    ```
 3. Compile and run any C++ file:
    ```bash
-   g++ Basics/hello_world.cpp -o hello
-   ./hello
+   g++ If-Else/positive_negative.cpp -o output
+   ./output
    ```
 
 ## Contribution
 
-Feel free to contribute by submitting pull requests, reporting issues, or suggesting improvements!
-
+Contributions are welcome! Feel free to submit pull requests, report issues, or suggest improvements.
 
 
 **Happy Coding!** 
