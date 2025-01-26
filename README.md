@@ -14,30 +14,6 @@ This repository covers the fundamental concepts of C++ programming, including:
 - **Object-Oriented Programming (OOP)** – Classes, Objects, and Inheritance
 - **File Handling** – Reading and Writing Data to Files
 
-## Folder Structure
-
-```
-📂 Programming-Fundamentals-C++
-├── 📁 Basics
-│   ├── hello_world.cpp
-│   ├── variables.cpp
-│   ├── operators.cpp
-├── 📁 Control-Flow
-│   ├── if_else.cpp
-│   ├── loops.cpp
-│   ├── switch_case.cpp
-├── 📁 Functions
-│   ├── function_basics.cpp
-│   ├── recursion.cpp
-├── 📁 Arrays-Strings
-│   ├── arrays.cpp
-│   ├── strings.cpp
-├── 📁 OOP
-│   ├── classes_objects.cpp
-│   ├── inheritance.cpp
-├── README.md
-```
-
 ## Prerequisites
 
 To follow along with the examples in this repository, you should have:
@@ -50,7 +26,7 @@ To follow along with the examples in this repository, you should have:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Programming-Fundamentals-Cpp.git
+   git clone https://github.com/aazannoorkhuwaja/Programming-Fundamentals
    ```
 2. Navigate to the project directory:
    ```bash
