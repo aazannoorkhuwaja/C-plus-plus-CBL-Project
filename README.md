@@ -49,7 +49,7 @@ The repository includes categorized programming questions such as:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/aazannoorkhuwaja/Programming-Fundamentals
+   git clone https://github.com/aazannoorkhuwaja/Programming-Fundamentals.git
    ```
 2. Navigate to the project directory:
    ```bash
