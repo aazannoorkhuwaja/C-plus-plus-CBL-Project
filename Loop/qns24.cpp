@@ -6,17 +6,27 @@ int main ()
     int n;
     cout<<" enter number in which you want pyramid :"<<endl;
     cin>>n;
-    for(int i=0;i<10;i++)
+    for(int i=0;i<n;i++)
     {
-        for(int j=10;j>0;j--)
+        for(int j=0;j<n-i;j++)
         {
             cout<<" ";
         }
-        for(int j=0;j<i+1;i++)
+        for(int k=0;k<=i;k++)
+        {
+            if(k==0)
             {
-                cout <<n;
+                continue;
             }
+            cout <<"*";
+        }
+        for(int k=0;k<=i;k++)
+        {
+            cout <<"*";
+        }
+
     cout <<endl;
     }
+    return 0;
 
 }
