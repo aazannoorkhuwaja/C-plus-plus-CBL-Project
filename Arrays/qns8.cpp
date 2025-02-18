@@ -3,24 +3,27 @@
 using namespace std;
 int main ()
 {
-    int size=5,arr[size]={1,1,2,3,2},count=0;
-   
-    for(int i=0;i<size;i++)
+    
+    int size;
+    cout<<"How manay numbers you want to input:"<<endl;
+    cin>>size;
+    int arr[size],number,count=0;
+    for(int i=1;i<=size;i++)
     {
-        for(int j=0;j<size;j++)
-        {
-            if(arr[i]==arr[j])
-            {
-                count++;
-            }
-        }
-        if(count>0)
-        {
-            cout <<"The Number: "<<arr[i]<<" Occured :"<<count<<endl;
-            count=0;
-        }
+        cout <<"Input number :"<<size-i+1<<endl;
+        cin>>arr[i];
     }
+    cout <<"Choose For which digit you want to cheak its occurencess: \n(1)for first digit \n(2)for 2nd digit in ths way you have to enter:"<<endl;
+    cin>>number;
 
-       
-    return 0;
+    for(int i=1;i<=size;i++)
+    {
+        if(arr[number]==arr[i])
+        {
+            count++;
+        }
+        
+    }
+    cout <<"The Digit "<<arr[number]<<" occured "<<count<<" times "<<endl;
+    
 }
