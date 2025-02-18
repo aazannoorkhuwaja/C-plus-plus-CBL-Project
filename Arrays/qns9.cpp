@@ -9,6 +9,7 @@ int main()
     cin>>k;
     for(int i=0;i<size;i++)
     {
+        cout <<"Enter the elements of array "<<i+1<<" :";
         cin>>arr[i];
     }
     for(int i=0;i<k;i++)
