@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int size=5;
-    int arr[size],k;
+    int arr[size],k,temp,temp2;
     cout<<"Enter the position :"<<endl;
     cin>>k;
     for(int i=0;i<size;i++)
@@ -13,10 +13,14 @@ int main()
         cin>>arr[i];
     }
     for(int i=0;i<k;i++)
+
     {
-        int temp=arr[size-i+1];
+        temp=arr[size-(i+1)];
         arr[i+k]=temp;
-        arr[size-i+1]=arr[i];
+        cout << arr[i+k]<<endl;
+        temp2=arr[i];
+        arr[size-(i+1)]=temp2;
+        cout << arr[size-(i+1)]<<endl;
     }
     for(int i=0;i<size;i++)
     {
