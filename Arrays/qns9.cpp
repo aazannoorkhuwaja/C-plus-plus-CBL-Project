@@ -3,8 +3,10 @@
 using namespace std;
 int main()
 {
-    int size=5;
-    int arr[size],k,temp,temp2;
+    int size;
+    cout <<"Enter the size of array :"<<endl;
+    cin>>size;
+    int arr[size],k;
     cout<<"Enter the position :"<<endl;
     cin>>k;
     for(int i=0;i<size;i++)
@@ -12,19 +14,24 @@ int main()
         cout <<"Enter the elements of array "<<i+1<<" :";
         cin>>arr[i];
     }
+    k=k%size;
+    int cop[k];
     for(int i=0;i<k;i++)
-
     {
-        temp=arr[size-(i+1)];
-        arr[i+k]=temp;
-        cout << arr[i+k]<<endl;
-        temp2=arr[i];
-        arr[size-(i+1)]=temp2;
-        cout << arr[size-(i+1)]<<endl;
+        cop[i]=arr[i];
     }
+    for(int j=k;j<size;j++)
+    {
+        arr[j-k]=arr[j];
+    }
+    for(int i=size-k;i<size;i++)
+    {
+        arr[i]=cop[i-(k+1)];
+    }
+    cout <<"The rotated array with k in left is :";
     for(int i=0;i<size;i++)
     {
         cout <<arr[i]<<" ";
     }
-
+ return 0;   
 }
