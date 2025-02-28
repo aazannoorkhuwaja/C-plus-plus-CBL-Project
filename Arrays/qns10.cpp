@@ -29,7 +29,6 @@ int main (){
           arr[i+k] = arr[i];
     }
     for(int i=0;i<k;i++)
-    //mistake in 6 arrays and 2 position 
     {
         arr[i]=temp[i];
     }
@@ -38,4 +37,5 @@ int main (){
     {
        cout<<arr[i]<<" ";
     }
+    return 0;
 }
