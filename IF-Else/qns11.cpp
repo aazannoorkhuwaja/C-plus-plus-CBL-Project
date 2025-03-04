@@ -7,7 +7,7 @@ int main(){
     cin>>x;
     if(x<0)
     {
-        x=-x;
+        x = (-x);
         cout <<"Absolute of Number is :"<<x<<endl;
     }
     else {
