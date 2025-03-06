@@ -3,18 +3,19 @@
 using namespace std;
 int main ()
 {
-    int size,arr[size];
+    int size;
     bool palindro=true;
     cout <<"Enter the size of array :"<<endl;
     cin>>size;
+    int arr[size];
     cout <<"Enter the elements of the array:"<<endl;
     for(int i=0;i<size;i++)
     {
         cin>>arr[i];
     }
-    for(int i=0;i<size/2;i++)
+    for(int i=1;i<=size/2;i++)
     {
-        if (arr[i]!=arr[size-i])
+        if (arr[i-1]!=arr[size-i])
         {
             palindro=false;
         }
