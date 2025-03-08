@@ -4,9 +4,9 @@ using namespace std;
 int main ()
 {
     int size;
-    int arr[size];
     cout <<"Enter the size of array :"<<endl;
     cin>>size;
+    int arr[size];
     cout <<"Enter the numbers: "<<endl;
     for (int i=0;i<size;i++)
     {
@@ -25,5 +25,5 @@ int main ()
     }
     cout <<"The number of evens in this number sequence is :"<<count_even<<endl;
     cout <<"The number of odd in this number sequence is :"<<count_odd<<endl;
-    
+    return 0;   
 }
