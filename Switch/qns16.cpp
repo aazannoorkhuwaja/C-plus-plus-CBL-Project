@@ -16,7 +16,7 @@ case 1:
 }
 case 0:
 {   
-    cout << "Invalid input" << endl;
+    cout << "not valid input" << endl;
     break;
 }
 return 0;
